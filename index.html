@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sushi Paradise</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Fugaz+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-utensils"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#booking-make">Booking</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#sushi">Sushi</a>
+                        <a class="dropdown-item" href="#nigiri">Nigiri</a>
+                        <a class="dropdown-item" href="#sashimi">Sashimi</a>
+                </li>
+            </ul>
+            </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <div class="info text-center">
+                        <h1 class="p-3">Sushi Paradise</h1>
+                        <a href="#menu" class="btn btn-primary button-custom">Discover Our Menu</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="section-menu">
+                <div class="container">
+                    <div class="row" id="menu">
+                        <div class="col text-center">
+                            <h2>Check our Menu!</h2>
+                        </div>
+                    </div>
+                    <div class="row mt-5" id="sushi">
+                        <div class="col-md-8">
+                            <h3 class="p-3">Sushi Special</h3>
+                            <p class="description pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla minima accusantium alias
+                                    iusto maxime, repellat aspernatur optio eos, facilis nemo dolores, ullam ex veniam non dolorum
+                                    perspiciatis modi dolor.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid img-item" src="https://images.unsplash.com/photo-1500040760498-8be2dccbdea7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd5c06583e98a1278c1bbc69077d59d6&auto=format&fit=crop&w=500&q=60"
+                                alt="Sushi Special">
+                        </div>
+                    </div>
+                    <div class="row mt-5" id="nigiri">
+                        <div class="col-md-8">
+                            <h3 class="p-3">Nigiri Exotic</h3>
+                            <p class="description pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla minima accusantium alias
+                                iusto maxime, repellat aspernatur optio eos, facilis nemo dolores, ullam ex veniam non dolorum
+                                perspiciatis modi dolor.</p>
+
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid img-item" src="https://images.unsplash.com/photo-1511344407683-b1172dce025f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9e6c31dea9271a9973ff52fe9c8ed92&auto=format&fit=crop&w=500&q=60"
+                                alt="Nigiri Exotic">
+                        </div>
+                    </div>
+                    <div class="row mt-5" id="sashimi">
+                        <div class="col-md-8">
+                            <h3 class="p-3">Sashimi Phenomenal</h3>
+                            <p class="description pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla minima accusantium alias
+                                iusto maxime, repellat aspernatur optio eos, facilis nemo dolores, ullam ex veniam non dolorum
+                                perspiciatis modi dolor.</p>
+
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid img-item" src="https://images.unsplash.com/photo-1512132411229-c30391241dd8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2f5eb556f3568763f2bc580b107f2a16&auto=format&fit=crop&w=500&q=60"
+                                alt="Sashimi Phenomenal">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-center mt-5">
+                                <button id="booking-make" type="button" class="btn btn-primary button-custom" data-toggle="modal" data-target="#bookingModal">
+                                        Book a Table
+                                      </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <div id="footer" class="bg-dark p-4 text-light">
+                    <div class="container">
+                  <div class="row">
+                    <div class="col text-white">
+                      <a target="_blank" href="https://www.linkedin.com/in/sonia-parker-b71987144/"> <i class=" text-white fab fa-2x fa-linkedin"></i> </a>
+                  </div>
+                    <div class="col">
+                    <p class="h5">
+                      made by Sonia Parker for GA, 2018
+                    </p>
+                  </div>
+                  <div class="col text-white">
+                    <a target="_blank" href="https://github.com/sonicakes"> <i class=" text-white fab fa-github-square fa-2x"></i> </a>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+    </footer>
+    <!-- Modal -->
+<div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="bookingModalLabel">Make a Booking</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="h1 text-danger"aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                            <div class="form-group">
+                              <label for="formGroupBookingInput1">Number of People</label>
+                              <select id="formGroupBookingInput1" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                  </select>
+                            </div>
+                            <div class="form-group">
+                                    <label for="formGroupBookingInput2">Date & Time</label>
+                                    <input type="text" class="form-control" id="formGroupBookingInput2" placeholder="12:30pm, 22/03/2018">
+                                  </div>
+                            <div class="form-group">
+                              <label for="formGroupBookingInput3">Your Email</label>
+                              <input type="email" class="form-control" id="formGroupBookingInput3" placeholder="sushi@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                    <label for="formGroupBookingInput4">Your Mobile</label>
+                                    <input type="text" class="form-control" id="formGroupBookingInput4" placeholder="046767676">
+                                  </div>
+                          </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary button-custom m-auto">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
