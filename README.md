@@ -5,6 +5,4 @@ create a responsive and interactive website for a business
 # Accomplished
 landing page + menu section, using Bootstrap 4, HTML and CSS.
 # Highlights
--use of clip-path property to create an angle of the landing page image
--use of linear gradient
--use of gradient on h1-h3 tags, utilizing background-image property and setting color to transparent to display on the text
+use of clip-path property to create an angle of the landing page image; use of linear gradient; use of gradient on h1-h3 tags, utilizing background-image property and setting color to transparent to display on the text
